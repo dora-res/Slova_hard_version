@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Slova_hard_version</string>
+    <string name="txt_for_btn_to_rulse">Правила</string>
+    <string name="name_of_game">ИГРА В СЛОВА</string>
+    <string name="question_count_of_gamers">Сколько игроков будет играть?</string>
+    <string name="ET_count_of_gamers">Кол-во игроков</string>
+    <string name="question_names_of_gamers">Запишите имена всех игроков через пробел</string>
+    <string name="ET_names_of_gamers">Запишите имена сюда</string>
+    <string name="go_to_play">Начать игру!</string>
+    <string name="rules_of_game">Это игра для 2 и более игроков (максимума нет).
+        Необходимо называть такие слова, чтобы они заканчивались на первую букву предыдушего слова. Пример: зебра - глаз - мозг. В случае
+        с первым словом - слово с буквой А на конце. Нужно не повторяться и называть
+        существующие слова (этого пока игра проверить не может, так что на доверии).
+        Имена у игроков не должны быть одинаковыми, что бы не путаться. В словах
+        не надо писать следующие символы:
+        , ~ ` @ ! # № $ % ^ &amp; * ; : ( ) \ / | пробел и цифры</string>
+    <string name="TV_count_of_gamers">Кол-во игроков:</string>
+    <string name="TV_names_of_gamers">Имена игроков</string>
+    <string name="all_words">Все слова:</string>
+    <string name="empty_words">Пока слов нет (</string>
+    <string name="player_smb_go">Игрок такой-то, ваш ход</string>
+    <string name="write_word_start_on_A">Введите слово на букву А</string>
+    <string name="write_word">Введите слово</string>
+    <string name="crate_goal">Ход сделан!</string>
+    <string name="end_game">Заканчиваем игру!</string>
+
+</resources>

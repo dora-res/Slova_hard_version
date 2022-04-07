@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B5B5B5"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head_of_dialog_window"
+        android:text="Правила игры"
+        android:gravity="center_horizontal"
+        android:textColor="#252525"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingVertical="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/rules_of_game"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="#252525"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

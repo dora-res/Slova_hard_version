@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/TW_count_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_count_of_gamers"
+        />
+    <TextView
+        android:id="@+id/TW_spisok_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TV_names_of_gamers"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer"
+        android:layout_below="@+id/TW_spisok_people"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/all_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TW_count_people"
+        android:paddingVertical="10dp"
+        android:text="@string/all_words"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/all_words">
+
+        <TextView
+            android:id="@+id/spisok_slov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_words" />
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/Player_smb_you_hod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll"
+        android:gravity="center_horizontal"
+        android:text="@string/player_smb_go"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/slovo_na_bukvu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Player_smb_you_hod"
+        android:gravity="center_horizontal"
+        android:text="@string/write_word_start_on_A"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/new_word_from_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slovo_na_bukvu"
+        android:hint="@string/write_word"
+        android:inputType="textCapCharacters"/>
+    <!-- делает все буквы БОЛЬШИМИ -->
+
+
+    <Button
+        android:id="@+id/hod_ready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exit"
+        android:backgroundTint="#FFE500"
+        android:paddingVertical="20dp"
+        android:text="@string/crate_goal"
+        android:textColor="#232323"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#FFE500"
+        android:text="@string/end_game"
+        android:textColor="#232323"
+        android:textStyle="bold" />
+
+</RelativeLayout>
